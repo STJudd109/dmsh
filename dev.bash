@@ -18,8 +18,20 @@ echo "#"
 echo "#"
 echo "lets do this!!"
 echo "################################"
-myDir='Desktop/Devmountain/'
+echo "Opening sites and folder..............."
+
+#modify this var
+myDir='~/Desktop/Devmountain/'
+
 Open 'https://github.com/DevMountain/DMWebAH-Syllabus'
-Open ~/$myDir/
+Open 'http://q.devmountain.com'
+Open $myDir
 open -a Terminal ~/$myDir/
+echo "Done :)"
+echo "---------------"
+echo "---------------"
+echo "---------------"
+echo "to use a live renderer, use lite-server [name of file]"
+echo "if you dont have it installed, use: \c"; echo "npm install lite-server -g"
+
 exit 0
